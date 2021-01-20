@@ -63,7 +63,7 @@ def no_vowels(input_string):
             ''W lv Pythn!'
     """
     no_vowel_string = ""
-    exception_list = ['a', 'e', 'i', 'o', 'u']
+    exception_list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     for char in input_string:
         if char not in exception_list:
             no_vowel_string += char
